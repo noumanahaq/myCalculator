@@ -1,7 +1,7 @@
 # My First Calculator App
 
 # Main class
-class myCalculator(self):
+class MyCalculator():
 
     # Addition
     def add(self, x, y):
