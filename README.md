@@ -1,56 +1,44 @@
-# 📌 myCalculator
-*A simple command-line calculator for basic arithmetic operations.*
+# myCalculator V2 (GUI Version)
 
-## 📖 Project Overview
-**Author:** Noumana Haq  
-**Date:** 07/02/2025  
-**Version:** 1.0  
-
-**myCalculator** is a basic calculator application designed for general users to perform simple arithmetic operations such as **addition, subtraction, multiplication, and division**. This application runs in a **command-line interface (CLI)** and ensures reliability and ease of use. Future enhancements may include a **Graphical User Interface (GUI)** and additional features.
+## Project Overview  
+Welcome to **myCalculator V2**, the graphical user interface (GUI) version of the original **myCalculator**! This calculator supports basic arithmetic operations such as addition, subtraction, multiplication, and division through an interactive, user-friendly GUI powered by **Python** and **Tkinter**.
 
 ---
 
-## 🚀 Features
-✔ Perform basic arithmetic operations: **+, -, *, /**  
-✔ Handles invalid inputs (e.g., non-numeric values)  
-✔ Displays error messages for incorrect operations (e.g., division by zero)  
-✔ Allows continuous calculations without restarting  
+## Features  
+- **Basic Arithmetic Operations**: Add, subtract, multiply, divide numbers.
+- **User-Friendly Interface**: Interactive buttons for calculation input.
+- **Error Handling**: Displays error messages for invalid operations like division by zero.
+- **Continuous Calculations**: Perform multiple calculations without restarting the application.
+- **Clear Button**: Reset input fields easily.
 
 ---
 
-## ⚙️ Technology Stack
-- **Programming Language:** Python 3.9  
-- **Development Tools:** VS Code, GitHub  
+## Technology Stack  
+- **Programming Language**: Python 3.9  
+- **GUI Framework**: Tkinter  
+- **Development Tools**: VS Code, GitHub  
+- **Version Control**: Git  
 
 ---
 
-## 🔄 User Flow
-1️⃣ User starts the program.  
-2️⃣ System prompts for the first number.  
-3️⃣ System asks for an operation (+, -, *, /).  
-4️⃣ System prompts for the second number.  
-5️⃣ System displays the result.  
-6️⃣ User can choose to continue or exit.  
+## Functional Requirements  
+- The system should allow users to perform basic arithmetic operations.
+- The system should handle invalid inputs (non-numeric values).
+- The system should display appropriate error messages (e.g., division by zero).
+- The system should allow continuous calculations without restarting.
 
 ---
 
-## 🛠 Non-Functional Requirements
-- **Performance:** Returns results instantly (<0.5 seconds).  
-- **Reliability:** Handles invalid inputs without crashing.  
-- **Usability:** Simple and intuitive CLI-based interaction.  
-- **Scalability:** Future support for advanced features.  
+## Installation  
 
----
+### Clone the repository  
+To get started, clone this repository to your local machine:
 
-## ⚠️ Limitations & Assumptions
-- Users must enter valid numeric inputs.  
-- The calculator does **not** support scientific calculations.  
-- Initially designed as a **CLI application**, with potential GUI expansion.  
+```bash
+git clone https://github.com/noumanahaq/myCalculator.git
+cd myCalculator
 
----
-
-## 📌 Future Enhancements
-✅ Extend to a **Graphical User Interface (GUI)** or web-based version  
-✅ Support for **scientific functions** (sin, cos, tan, logarithm, etc.)  
-✅ Add **graphing functionality** for equations  
-✅ Implement **calculation history storage**  
+## Run the Application
+Make sure you have Python 3.9+ installed. Then, run the application using the following command:
+python gui_frontend.py
